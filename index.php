@@ -1,0 +1,65 @@
+
+<!DOCTYPE HTML>
+<html>
+	
+	<head>
+		<link rel="shortcut icon" type ="image/png" href="img/favicon3_1.png">
+		<title>CrazyDiamond</title>
+		
+		<meta name="description" content="website description" />
+		<meta name="keywords" content="website keywords, website keywords" />
+		<meta http-equiv="content-type" content="text/html; charset=windows-1252" />
+		<link rel="stylesheet" type="text/css" href="style/style.css" />
+	</head>
+	
+	<body>
+		<div id="main">
+			<div id="header">
+				<div id="logo">
+					<div id="logo_text">
+						<!-- class="logo_colour", allows you to change the colour of the text -->
+						<h1><a href="index.php">Crazy<span class="logo_colour">Diamond</span></a></h1>
+						<h2>Simple. Contemporary. Website.</h2>
+					</div>
+				</div>
+				<div id="menubar">
+					<ul id="menu">
+						<!-- put class="selected" in the li tag for the selected page - to highlight which page you're on -->
+						<li class="selected"><a href="index.php">Home</a></li>
+						<!--Here html Reports become to phpReport-->
+						<li><a href="movies.php">Movies</a></li>
+						<li><a href="stars.php">Stars</a></li>
+						<li><a href="writers.php">Writers</a></li>
+					</ul>
+				</div>
+			</div>
+			<div id="content_header"></div>
+			<div id="site_content">
+			<div id="banner"></div>
+				<!-- 3pro komp   -->
+				<div id="site_content">
+					<!-- insert the page content here -->
+					<div class="row" >
+						<h1><center><b>About student2 DB</b></center></h1>
+						<hr>
+						<h><center></h>
+							<div class="column">
+								<h1><b>Movies</b></h1>
+								<p>Holds info about movies</p>
+							</div>
+							<div class="column">
+								<h1><b>Stars</b></h1>
+								<p>All about stars of movies</p>
+								<p></p>
+							</div>
+							<div class="column">
+								<h1><b>Writers</b></h1>
+								<p>Writers data who writes movies</p>
+							</div>
+						</div>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
